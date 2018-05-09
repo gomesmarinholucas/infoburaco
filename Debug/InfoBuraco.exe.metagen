@@ -1,0 +1,123 @@
+  InfoBuraco.Tela1_Login.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela2_Inicio.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_1_1_Gerenciar_Equipe.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_1_2_Cadastrar_Equipe.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_1_Equipes.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_2_1_Gerenciar_Equipamento.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_2_2_Cadastrar_Equipamento.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_2_Equipamentos.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_3_1_Gerenciar_Material.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_3_2_Cadastrar_Material.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_3_Materiais.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_4_Mobilizacao.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela3_Infraestrutura.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela4_1_Registrar_Buraco.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela4_2_Registrar_Notificacao.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela4_3_Responder_Notificacoes.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela4_Comunicacao.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela5_1_Gerenciar_OS.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela5_2_Compor_Saida.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela5_3_Registrar_Cumprimento_OS.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela5_Despacho.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela6_1_Relatorio.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela6_2_Fatura_Mensal.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela6_Faturamento.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela7_1_Gerenciar_Usuario.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela7_2_Cadastrar_Usuario.resources - Embedded, ContainedInManifestFile, 
+  InfoBuraco.Tela7_Administracao_Usuarios.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly InfoBuraco, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class InfoBuraco.Tela3_1_1_Gerenciar_Equipe: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_1_2_Cadastrar_Equipe: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_1_Equipes: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_2_1_Gerenciar_Equipamento: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_2_2_Cadastrar_Equipamento: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_2_Equipamentos: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_3_1_Gerenciar_Material: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_3_2_Cadastrar_Material: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_3_Materiais: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_4_Mobilizacao: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela3_Infraestrutura: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela4_1_Registrar_Buraco: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela4_2_Registrar_Notificacao: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela4_3_Responder_Notificacoes: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela4_Comunicacao: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela5_1_Gerenciar_OS: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela5_2_Compor_Saida: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela5_3_Registrar_Cumprimento_OS: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela5_Despacho: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela6_1_Relatorio: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela6_2_Fatura_Mensal: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela6_Faturamento: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela7_1_Gerenciar_Usuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela7_2_Cadastrar_Usuario: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela7_Administracao_Usuarios: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela2_Inicio: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class InfoBuraco.Tela1_Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

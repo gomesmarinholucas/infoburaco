@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tela1_Login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela2_Inicio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_1_Equipes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_2_Equipamentos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_3_Materiais.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_4_Mobilizacao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_Infraestrutura.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela4_1_Registrar_Buraco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela4_2_Registrar_Notificacao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela4_3_Responder_Notificacoes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela4_Comunicacao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela5_1_Gerenciar_OS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela5_2_Compor_Saida.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela5_3_Registrar_Cumprimento_OS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela5_Despacho.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela6_1_Relatorio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela6_2_Fatura_Mensal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela6_Faturamento.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela7_Administracao_Usuarios.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_1_1_Gerenciar_Equipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_1_2_Cadastrar_Equipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_2_1_Gerenciar_Equipamento.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_2_2_Cadastrar_Equipamento.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_3_1_Gerenciar_Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela3_3_2_Cadastrar_Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela7_1_Gerenciar_Usuario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tela7_2_Cadastrar_Usuario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tela1_Login.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela2_Inicio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_1_Equipes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_2_Equipamentos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_3_Materiais.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_4_Mobilizacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_Infraestrutura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela4_1_Registrar_Buraco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela4_2_Registrar_Notificacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela4_3_Responder_Notificacoes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela4_Comunicacao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela5_1_Gerenciar_OS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela5_2_Compor_Saida.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela5_3_Registrar_Cumprimento_OS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela5_Despacho.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela6_1_Relatorio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela6_2_Fatura_Mensal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela6_Faturamento.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela7_Administracao_Usuarios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_1_1_Gerenciar_Equipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_1_2_Cadastrar_Equipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_2_1_Gerenciar_Equipamento.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_2_2_Cadastrar_Equipamento.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_3_1_Gerenciar_Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela3_3_2_Cadastrar_Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela7_1_Gerenciar_Usuario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tela7_2_Cadastrar_Usuario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Tela1_Login.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela2_Inicio.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_1_Equipes.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_Infraestrutura.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela4_1_Registrar_Buraco.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela4_2_Registrar_Notificacao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela4_3_Responder_Notificacoes.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela4_Comunicacao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela5_1_Gerenciar_OS.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela5_2_Compor_Saida.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela5_3_Registrar_Cumprimento_OS.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela5_Despacho.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela6_1_Relatorio.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela6_2_Fatura_Mensal.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela6_Faturamento.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_1_1_Gerenciar_Equipe.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_1_2_Cadastrar_Equipe.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_2_1_Gerenciar_Equipamento.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_2_2_Cadastrar_Equipamento.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_2_Equipamentos.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_3_1_Gerenciar_Material.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_3_2_Cadastrar_Material.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_3_Materiais.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_4_Mobilizacao.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela7_1_Gerenciar_Usuario.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela7_2_Cadastrar_Usuario.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela7_Administracao_Usuarios.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

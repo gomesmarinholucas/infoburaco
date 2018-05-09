@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7374D859-7E66-4E07-9891-B2D8E1C84287}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>InfoBuraco</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tela1_Login.cpp" />
+    <ClCompile Include="Tela2_Inicio.cpp" />
+    <ClCompile Include="Tela3_1_1_Gerenciar_Equipe.cpp" />
+    <ClCompile Include="Tela3_1_2_Cadastrar_Equipe.cpp" />
+    <ClCompile Include="Tela3_1_Equipes.cpp" />
+    <ClCompile Include="Tela3_2_1_Gerenciar_Equipamento.cpp" />
+    <ClCompile Include="Tela3_2_2_Cadastrar_Equipamento.cpp" />
+    <ClCompile Include="Tela3_2_Equipamentos.cpp" />
+    <ClCompile Include="Tela3_3_1_Gerenciar_Material.cpp" />
+    <ClCompile Include="Tela3_3_2_Cadastrar_Material.cpp" />
+    <ClCompile Include="Tela3_3_Materiais.cpp" />
+    <ClCompile Include="Tela3_4_Mobilizacao.cpp" />
+    <ClCompile Include="Tela3_Infraestrutura.cpp" />
+    <ClCompile Include="Tela4_1_Registrar_Buraco.cpp" />
+    <ClCompile Include="Tela4_2_Registrar_Notificacao.cpp" />
+    <ClCompile Include="Tela4_3_Responder_Notificacoes.cpp" />
+    <ClCompile Include="Tela4_Comunicacao.cpp" />
+    <ClCompile Include="Tela5_1_Gerenciar_OS.cpp" />
+    <ClCompile Include="Tela5_2_Compor_Saida.cpp" />
+    <ClCompile Include="Tela5_3_Registrar_Cumprimento_OS.cpp" />
+    <ClCompile Include="Tela5_Despacho.cpp" />
+    <ClCompile Include="Tela6_1_Relatorio.cpp" />
+    <ClCompile Include="Tela6_2_Fatura_Mensal.cpp" />
+    <ClCompile Include="Tela6_Faturamento.cpp" />
+    <ClCompile Include="Tela7_1_Gerenciar_Usuario.cpp" />
+    <ClCompile Include="Tela7_2_Cadastrar_Usuario.cpp" />
+    <ClCompile Include="Tela7_Administracao_Usuarios.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tela1_Login.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela2_Inicio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_1_1_Gerenciar_Equipe.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_1_2_Cadastrar_Equipe.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_1_Equipes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_2_1_Gerenciar_Equipamento.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_2_2_Cadastrar_Equipamento.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_2_Equipamentos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_3_1_Gerenciar_Material.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_3_2_Cadastrar_Material.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_3_Materiais.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_4_Mobilizacao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela3_Infraestrutura.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela4_1_Registrar_Buraco.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela4_2_Registrar_Notificacao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela4_3_Responder_Notificacoes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela4_Comunicacao.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela5_1_Gerenciar_OS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela5_2_Compor_Saida.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela5_3_Registrar_Cumprimento_OS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela5_Despacho.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela6_1_Relatorio.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela6_2_Fatura_Mensal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela6_Faturamento.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela7_1_Gerenciar_Usuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela7_2_Cadastrar_Usuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tela7_Administracao_Usuarios.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Tela1_Login.resx">
+      <DependentUpon>Tela1_Login.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela2_Inicio.resx">
+      <DependentUpon>Tela2_Inicio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_1_1_Gerenciar_Equipe.resx">
+      <DependentUpon>Tela3_1_1_Gerenciar_Equipe.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_1_2_Cadastrar_Equipe.resx">
+      <DependentUpon>Tela3_1_2_Cadastrar_Equipe.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_1_Equipes.resx">
+      <DependentUpon>Tela3_1_Equipes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_2_1_Gerenciar_Equipamento.resx">
+      <DependentUpon>Tela3_2_1_Gerenciar_Equipamento.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_2_2_Cadastrar_Equipamento.resx">
+      <DependentUpon>Tela3_2_2_Cadastrar_Equipamento.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_2_Equipamentos.resx">
+      <DependentUpon>Tela3_2_Equipamentos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_3_1_Gerenciar_Material.resx">
+      <DependentUpon>Tela3_3_1_Gerenciar_Material.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_3_2_Cadastrar_Material.resx">
+      <DependentUpon>Tela3_3_2_Cadastrar_Material.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_3_Materiais.resx">
+      <DependentUpon>Tela3_3_Materiais.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_4_Mobilizacao.resx">
+      <DependentUpon>Tela3_4_Mobilizacao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela3_Infraestrutura.resx">
+      <DependentUpon>Tela3_Infraestrutura.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela4_1_Registrar_Buraco.resx">
+      <DependentUpon>Tela4_1_Registrar_Buraco.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela4_2_Registrar_Notificacao.resx">
+      <DependentUpon>Tela4_2_Registrar_Notificacao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela4_3_Responder_Notificacoes.resx">
+      <DependentUpon>Tela4_3_Responder_Notificacoes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela4_Comunicacao.resx">
+      <DependentUpon>Tela4_Comunicacao.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela5_1_Gerenciar_OS.resx">
+      <DependentUpon>Tela5_1_Gerenciar_OS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela5_2_Compor_Saida.resx">
+      <DependentUpon>Tela5_2_Compor_Saida.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela5_3_Registrar_Cumprimento_OS.resx">
+      <DependentUpon>Tela5_3_Registrar_Cumprimento_OS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela5_Despacho.resx">
+      <DependentUpon>Tela5_Despacho.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela6_1_Relatorio.resx">
+      <DependentUpon>Tela6_1_Relatorio.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela6_2_Fatura_Mensal.resx">
+      <DependentUpon>Tela6_2_Fatura_Mensal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela6_Faturamento.resx">
+      <DependentUpon>Tela6_Faturamento.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela7_1_Gerenciar_Usuario.resx">
+      <DependentUpon>Tela7_1_Gerenciar_Usuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela7_2_Cadastrar_Usuario.resx">
+      <DependentUpon>Tela7_2_Cadastrar_Usuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela7_Administracao_Usuarios.resx">
+      <DependentUpon>Tela7_Administracao_Usuarios.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
